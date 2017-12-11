@@ -1,0 +1,335 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+  <!-- START SIGMA IMPORTS -->
+  <script src="js/sigma.js-1.2.1/src/sigma.core.js"></script>
+  <script src="js/sigma.js-1.2.1/src/conrad.js"></script>
+  <script src="js/sigma.js-1.2.1/src/utils/sigma.utils.js"></script>
+  <script src="js/sigma.js-1.2.1/src/utils/sigma.polyfills.js"></script>
+  <script src="js/sigma.js-1.2.1/src/sigma.settings.js"></script>
+  <script src="js/sigma.js-1.2.1/src/classes/sigma.classes.dispatcher.js"></script>
+  <script src="js/sigma.js-1.2.1/src/classes/sigma.classes.configurable.js"></script>
+  <script src="js/sigma.js-1.2.1/src/classes/sigma.classes.graph.js"></script>
+  <script src="js/sigma.js-1.2.1/src/classes/sigma.classes.camera.js"></script>
+  <script src="js/sigma.js-1.2.1/src/classes/sigma.classes.quad.js"></script>
+  <script src="js/sigma.js-1.2.1/src/classes/sigma.classes.edgequad.js"></script>
+  <script src="js/sigma.js-1.2.1/src/captors/sigma.captors.mouse.js"></script>
+  <script src="js/sigma.js-1.2.1/src/captors/sigma.captors.touch.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/sigma.renderers.canvas.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/sigma.renderers.webgl.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/sigma.renderers.svg.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/sigma.renderers.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/webgl/sigma.webgl.nodes.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/webgl/sigma.webgl.nodes.fast.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/webgl/sigma.webgl.edges.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/webgl/sigma.webgl.edges.fast.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/webgl/sigma.webgl.edges.arrow.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edges.curve.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edges.arrow.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edges.curvedArrow.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edgehovers.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edgehovers.curve.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edgehovers.arrow.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.edgehovers.curvedArrow.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/canvas/sigma.canvas.extremities.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/svg/sigma.svg.utils.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/svg/sigma.svg.nodes.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/svg/sigma.svg.edges.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/svg/sigma.svg.edges.curve.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/svg/sigma.svg.labels.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/renderers/svg/sigma.svg.hovers.def.js"></script>
+  <script src="js/sigma.js-1.2.1/src/middlewares/sigma.middlewares.rescale.js"></script>
+  <script src="js/sigma.js-1.2.1/src/middlewares/sigma.middlewares.copy.js"></script>
+  <script src="js/sigma.js-1.2.1/src/misc/sigma.misc.animation.js"></script>
+  <script src="js/sigma.js-1.2.1/src/misc/sigma.misc.bindEvents.js"></script>
+  <script src="js/sigma.js-1.2.1/src/misc/sigma.misc.bindDOMEvents.js"></script>
+  <script src="js/sigma.js-1.2.1/src/misc/sigma.misc.drawHovers.js"></script>
+  <!-- END SIGMA IMPORTS -->
+
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">  
+      <div class="sigma-parent" id="sigma-example-parent">
+        <div class="sigma-expand" id="sigma-container"></div>
+        <div class="info">
+          <h1 id="selectedNode"></h1>
+          
+          <ul id="connections">
+          </ul>
+              
+        </div>
+      </div>
+      
+    </div>
+  <script src="js/sigma.js-1.2.1/plugins/sigma.parsers.gexf/gexf-parser.js"></script>
+	<script src="js/sigma.js-1.2.1/plugins/sigma.parsers.gexf/sigma.parsers.gexf.js"></script>
+  <script src="js/sigma.js-1.2.1/plugins/sigma.plugins.filter/sigma.plugins.filter.js"></script>
+	
+  <script type="text/javascript">
+  
+  // Add a method to the graph model that returns an
+  // object with every neighbors of a node inside:
+  sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+    var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
+
+    for (k in index)
+      neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
+  });
+  
+  function growNodes(s) {
+    if (!s.nodesGrown) {
+      var maxNodeSize = s.settings('maxNodeSize');
+      maxNodeSize = maxNodeSize * 2;
+      s.settings('maxNodeSize', maxNodeSize);
+    }
+    s.nodesGrown = true;
+  }
+  
+  function shrinkNodes(s) {
+    if (s.nodesGrown) {
+      var maxNodeSize = s.settings('maxNodeSize');
+      maxNodeSize = maxNodeSize / 2;
+      s.settings('maxNodeSize', maxNodeSize);
+    }
+    s.nodesGrown = false;
+  }
+
+  sigma.parsers.gexf(
+    'data/graph.gexf',
+    {
+      container: 'sigma-container',
+      settings: {
+        labelThreshold: 0,
+        labelSize: 'proportional',
+        labelSizeRatio: 2
+      }
+    },
+    function(s) {
+      
+      var filter = new sigma.plugins.filter(s);
+      
+      // We first need to save the original colors of our
+      // nodes and edges, like this:
+      s.graph.nodes().forEach(function(n) {
+        n.originalColor = n.color;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.originalColor = e.color;
+      });
+
+      // When a node is clicked, we check for each node
+      // if it is a neighbor of the clicked one. If not,
+      // we set its color as grey, and else, it takes its
+      // original color.
+      // We do the same for the edges, and we only keep
+      // edges that have both extremities colored.
+      s.bind('clickNode', function(e) {
+        console.log(e)
+        var nodeId = e.data.node.id,
+            toKeep = s.graph.neighbors(nodeId);
+        toKeep[nodeId] = e.data.node;
+
+        s.graph.nodes().forEach(function(n) {
+          if (toKeep[n.id])
+            n.color = n.originalColor;
+          else
+            n.color = '#eee';
+        });
+
+        s.graph.edges().forEach(function(e) {
+          if (toKeep[e.source] && toKeep[e.target])
+            e.color = e.originalColor;
+          else
+            e.color = '#eee';
+        });
+        
+        growNodes(s);
+        
+        filter
+          .nodesBy( function(n) {
+            return toKeep[n.id];
+          }, 'neighbors')
+          .apply();
+
+        // Since the data has been modified, we need to
+        // call the refresh method to make the colors
+        // update effective.
+        s.refresh();
+        
+        //update info box
+        $('#selectedNode').text(e.data.node.label);
+        $('#connections').empty();
+        Object.keys(toKeep).forEach( function(nodeID) {
+          var theNode = toKeep[nodeID]
+          console.log(theNode);
+          $('#connections').append(`<li>${toKeep[nodeID].label}</li>`)
+        })
+        
+      });
+
+      // When the stage is clicked, we just color each
+      // node and edge with its original color.
+      s.bind('clickStage', function(e) {
+        s.graph.nodes().forEach(function(n) {
+          n.color = n.originalColor;
+        });
+
+        s.graph.edges().forEach(function(e) {
+          e.color = e.originalColor;
+        });
+        
+        shrinkNodes(s);
+        
+        filter
+          .undo('neighbors')
+          .apply();
+
+        // Same as in the previous event:
+        s.refresh();
+        $('#connections').empty();
+        $('#selectedNode').text('')
+      });
+    }
+  );
+  
+  //function init() {
+  // Instanciate sigma.js and customize rendering :
+  // var sigInst = sigma.init(document.getElementById('sigma-example')).drawingProperties({
+  //   defaultLabelColor: '#fff',
+  //   defaultLabelSize: 14,
+  //   defaultLabelBGColor: '#fff',
+  //   defaultLabelHoverColor: '#000',
+  //   labelThreshold: 6,
+  //   defaultEdgeType: 'curve'
+  // }).graphProperties({
+  //   minNodeSize: 1,
+  //   maxNodeSize: 10,
+  //   minEdgeSize: 1,
+  //   maxEdgeSize: 1
+  // }).mouseProperties({
+  //   maxRatio: 32
+  // });
+
+  // Parse a GEXF encoded file to fill the graph
+  // (requires "sigma.parseGexf.js" to be included)
+  // sigInst.parseGexf('data/graph.gexf');
+
+  //highlights the nodes that is hovered+ its edges
+  //
+  // Bind events :
+  // var greyColor = '#666';
+  // sigInst.bind('overnodes',function(event){
+  //   var nodes = event.content;
+  //   var neighbors = {};
+  //   sigInst.iterEdges(function(e){
+  //     if(nodes.indexOf(e.source)<0 && nodes.indexOf(e.target)<0){
+  //       if(!e.attr['grey']){
+  //         e.attr['true_color'] = e.color;
+  //         e.color = greyColor;
+  //         e.attr['grey'] = 1;
+  //       }
+  //     }else{
+  //       e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
+  //       e.attr['grey'] = 0;
+  // 
+  //       neighbors[e.source] = 1;
+  //       neighbors[e.target] = 1;
+  //     }
+  //   }).iterNodes(function(n){
+  //     if(!neighbors[n.id]){
+  //       if(!n.attr['grey']){
+  //         n.attr['true_color'] = n.color;
+  //         n.color = greyColor;
+  //         n.attr['grey'] = 1;
+  //       }
+  //     }else{
+  //       n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
+  //       n.attr['grey'] = 0;
+  //     }
+  //   }).draw(2,2,2);
+  // }).bind('outnodes',function(){
+  //   sigInst.iterEdges(function(e){
+  //     e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
+  //     e.attr['grey'] = 0;
+  //   }).iterNodes(function(n){
+  //     n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
+  //     n.attr['grey'] = 0;
+  //   }).draw(2,2,2);
+  // })
+  // 
+  // sigInst.bind('clickNode', function(e){
+  //   console.log(e)
+  // })
+  
+  
+  // Draw the graph :
+//   sigInst.draw();
+// }
+
+// if (document.addEventListener) {
+//   document.addEventListener("DOMContentLoaded", init, false);
+// } else {
+//   window.onload = init;
+// }
+</script>
+
+<style type="text/css">
+  /* sigma.js context : */
+  .sigma-parent {
+    position: relative;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: whitesmoke;
+    height: 98%;
+    box-sizing: border-box;
+  }
+  .sigma-expand {
+    position: absolute;
+    width: 66%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #eee;
+    box-shadow: 0 2px 4px #999;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .buttons-container{
+    padding-bottom: 8px;
+    padding-top: 12px;
+  }
+  .info {
+    float: right;
+    margin-bottom: 20px;
+    width: 177px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px #999;
+    border-radius: 5px;
+    background: #fff;
+    min-width: 33%;
+    min-height: 100%;
+    box-sizing: border-box;
+  }
+</style>
+
+        
+		
+<?php include("../php/statcounter.php"); ?>		
+</body>
+</html>

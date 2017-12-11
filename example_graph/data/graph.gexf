@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-12-09">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="authority" title="Authority" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="hub" title="Hub" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="AHFC">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3565217391304348"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46504065040650405"></attvalue>
+          <attvalue for="betweenesscentrality" value="87.63809523809523"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.37247112"></attvalue>
+          <attvalue for="hub" value="0.37247112"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+        </attvalues>
+        <viz:size value="279.7"></viz:size>
+        <viz:position x="-791.4176" y="1696.4976"></viz:position>
+        <viz:color r="237" g="156" b="121"></viz:color>
+      </node>
+      <node id="2" label="AEA">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.37962962962962965"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.45691056910569106"></attvalue>
+          <attvalue for="betweenesscentrality" value="145.37023809523808"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.27182424"></attvalue>
+          <attvalue for="hub" value="0.27182424"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="14.0"></attvalue>
+        </attvalues>
+        <viz:size value="185.11354"></viz:size>
+        <viz:position x="-2766.1072" y="1972.2516"></viz:position>
+        <viz:color r="252" g="243" b="182"></viz:color>
+      </node>
+      <node id="3" label="ACEP">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3474576271186441"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4365853658536587"></attvalue>
+          <attvalue for="betweenesscentrality" value="50.833333333333336"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.26262257"></attvalue>
+          <attvalue for="hub" value="0.26262257"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+        </attvalues>
+        <viz:size value="228.85767"></viz:size>
+        <viz:position x="-1725.4739" y="1432.331"></viz:position>
+        <viz:color r="228" g="101" b="82" a="0.99607843"></viz:color>
+      </node>
+      <node id="4" label="NREL">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2887323943661972"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.35714285714285715"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.20190147"></attvalue>
+          <attvalue for="hub" value="0.20190147"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="12.0"></attvalue>
+        </attvalues>
+        <viz:size value="223.2"></viz:size>
+        <viz:position x="581.73224" y="1523.561"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="5" label="DoE">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3360655737704918"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4162601626016262"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.23214285714286"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.29123744"></attvalue>
+          <attvalue for="hub" value="0.29123744"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="16.0"></attvalue>
+        </attvalues>
+        <viz:size value="145.83347"></viz:size>
+        <viz:position x="-185.17737" y="-393.5268"></viz:position>
+        <viz:color r="219" g="49" b="45"></viz:color>
+      </node>
+      <node id="6" label="Wind for Schools">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.29927007299270075"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3815331010452962"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.7833333333333323"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.24476223"></attvalue>
+          <attvalue for="hub" value="0.24476223"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="16.0"></attvalue>
+        </attvalues>
+        <viz:size value="272.98672"></viz:size>
+        <viz:position x="-1.6275024" y="474.9501"></viz:position>
+        <viz:color r="215" g="30" b="32"></viz:color>
+      </node>
+      <node id="7" label="AK Energy Smart">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4000000000000001"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.966666666666668"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.19618015"></attvalue>
+          <attvalue for="hub" value="0.19618015"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+        </attvalues>
+        <viz:size value="295.69534"></viz:size>
+        <viz:position x="-1287.6334" y="251.37067"></viz:position>
+        <viz:color r="216" g="32" b="33"></viz:color>
+      </node>
+      <node id="8" label="ANSEP">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4077235772357724"></attvalue>
+          <attvalue for="betweenesscentrality" value="85.28333333333333"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.044871416"></attvalue>
+          <attvalue for="hub" value="0.044871416"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="16.0"></attvalue>
+        </attvalues>
+        <viz:size value="108.64247"></viz:size>
+        <viz:position x="-135.43436" y="-3160.984"></viz:position>
+        <viz:color r="237" g="152" b="118"></viz:color>
+      </node>
+      <node id="9" label="UAS">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="121.6"></viz:size>
+        <viz:position x="601.5254" y="-3881.6355"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="10" label="UAF">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3360655737704918"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4130081300813007"></attvalue>
+          <attvalue for="betweenesscentrality" value="75.10833333333332"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.09591064"></attvalue>
+          <attvalue for="hub" value="0.09591064"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+        </attvalues>
+        <viz:size value="227.58876"></viz:size>
+        <viz:position x="-2155.998" y="-1623.0579"></viz:position>
+        <viz:color r="234" g="137" b="107"></viz:color>
+      </node>
+      <node id="11" label="Sustainable Southeast Partnership">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3942307692307692"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4784552845528455"></attvalue>
+          <attvalue for="betweenesscentrality" value="170.9464285714285"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.16662592"></attvalue>
+          <attvalue for="hub" value="0.16662592"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="24.0"></attvalue>
+        </attvalues>
+        <viz:size value="174.18398"></viz:size>
+        <viz:position x="1751.0605" y="-1817.2521"></viz:position>
+        <viz:color r="230" g="239" b="189"></viz:color>
+      </node>
+      <node id="12" label="Power Pledge Challenge">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.30597014925373134"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4044715447154471"></attvalue>
+          <attvalue for="betweenesscentrality" value="154.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.26304534"></attvalue>
+          <attvalue for="hub" value="0.26304534"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="27.0"></attvalue>
+        </attvalues>
+        <viz:size value="205.76427"></viz:size>
+        <viz:position x="-2362.8547" y="421.72583"></viz:position>
+        <viz:color r="254" g="254" b="190"></viz:color>
+      </node>
+      <node id="13" label="Summer Bridge">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2808219178082192"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.332520325203252"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.029507566"></attvalue>
+          <attvalue for="hub" value="0.029507566"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+        </attvalues>
+        <viz:size value="113.600006"></viz:size>
+        <viz:position x="-470.1316" y="-2417.0798"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="14" label="REACH UP">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3253968253968254"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.38008130081300806"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.125"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.035291728"></attvalue>
+          <attvalue for="hub" value="0.035291728"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+        </attvalues>
+        <viz:size value="30.464872"></viz:size>
+        <viz:position x="-691.5833" y="-2200.6611"></viz:position>
+        <viz:color r="225" g="85" b="70"></viz:color>
+      </node>
+      <node id="15" label="Math in a Cultural Context">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25308641975308643"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2886178861788617"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.018705726"></attvalue>
+          <attvalue for="hub" value="0.018705726"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="68.8"></viz:size>
+        <viz:position x="-3481.0525" y="-1716.4343"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="16" label="EXCEL">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.23295454545454544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2776422764227642"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.003501169"></attvalue>
+          <attvalue for="hub" value="0.003501169"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+        </attvalues>
+        <viz:size value="30.432272"></viz:size>
+        <viz:position x="1491.3894" y="-3104.8342"></viz:position>
+        <viz:color r="225" g="84" b="70"></viz:color>
+      </node>
+      <node id="17" label="Juneau House Build Project">
+        <attvalues>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="107.200005"></viz:size>
+        <viz:position x="-671.7679" y="-3879.8816"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="18" label="Career &amp; Tech Ed">
+        <attvalues>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+        </attvalues>
+        <viz:size value="70.66081"></viz:size>
+        <viz:position x="-7.4171143" y="-3688.5784"></viz:position>
+        <viz:color r="215" g="26" b="29"></viz:color>
+      </node>
+      <node id="19" label="Rural Schools">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3761467889908257"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4666666666666667"></attvalue>
+          <attvalue for="betweenesscentrality" value="152.275"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.10642395"></attvalue>
+          <attvalue for="hub" value="0.10642395"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="24.0"></attvalue>
+        </attvalues>
+        <viz:size value="196.51436"></viz:size>
+        <viz:position x="-365.81152" y="-1044.7673"></viz:position>
+        <viz:color r="254" g="253" b="189"></viz:color>
+      </node>
+      <node id="20" label="Anchorage">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2887323943661972"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3288617886178861"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.016586002"></attvalue>
+          <attvalue for="hub" value="0.016586002"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+        </attvalues>
+        <viz:size value="73.600006"></viz:size>
+        <viz:position x="516.98" y="-3258.039"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="21" label="Fairbanks">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2887323943661972"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3288617886178861"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.016586002"></attvalue>
+          <attvalue for="hub" value="0.016586002"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+        </attvalues>
+        <viz:size value="92.8"></viz:size>
+        <viz:position x="679.0924" y="-3481.3423"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="22" label="Mat-Su">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2887323943661972"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3288617886178861"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.016586002"></attvalue>
+          <attvalue for="hub" value="0.016586002"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+        </attvalues>
+        <viz:size value="64.0"></viz:size>
+        <viz:position x="1010.5582" y="-3336.9058"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="23" label="Juneau">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="90.4"></viz:size>
+        <viz:position x="1333.8481" y="-3417.9028"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="24" label="Distance Learning">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3203125"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3780487804878048"></attvalue>
+          <attvalue for="betweenesscentrality" value="55.5"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.04470398"></attvalue>
+          <attvalue for="hub" value="0.04470398"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="15.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.074776"></viz:size>
+        <viz:position x="-744.07367" y="-1662.0934"></viz:position>
+        <viz:color r="229" g="108" b="86" a="0.99607843"></viz:color>
+      </node>
+      <node id="25" label="Bristol Bay Campus">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2827586206896552"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3349593495934959"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.733333333333334"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.040953096"></attvalue>
+          <attvalue for="hub" value="0.040953096"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="22.016907"></viz:size>
+        <viz:position x="-2196.6511" y="-2243.5835"></viz:position>
+        <viz:color r="217" g="36" b="36" a="0.99607843"></viz:color>
+      </node>
+      <node id="26" label="Sustainable Energy Program">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.39796747967479684"></attvalue>
+          <attvalue for="betweenesscentrality" value="52.70000000000001"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.11406986"></attvalue>
+          <attvalue for="hub" value="0.11406986"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="15.0"></attvalue>
+        </attvalues>
+        <viz:size value="168.90001"></viz:size>
+        <viz:position x="-1371.5105" y="-2698.3403"></viz:position>
+        <viz:color r="228" g="104" b="84"></viz:color>
+      </node>
+      <node id="27" label="Kuspuk School District">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2971014492753623"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.35121951219512193"></attvalue>
+          <attvalue for="betweenesscentrality" value="78.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.017268846"></attvalue>
+          <attvalue for="hub" value="0.017268846"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+        </attvalues>
+        <viz:size value="40.34293"></viz:size>
+        <viz:position x="1114.8102" y="-2895.0264"></viz:position>
+        <viz:color r="235" g="141" b="110"></viz:color>
+      </node>
+      <node id="28" label="UAA">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2546583850931677"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3036585365853658"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.009097447"></attvalue>
+          <attvalue for="hub" value="0.009097447"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+        </attvalues>
+        <viz:size value="30.432272"></viz:size>
+        <viz:position x="-714.07745" y="-2993.4475"></viz:position>
+        <viz:color r="225" g="84" b="70"></viz:color>
+      </node>
+      <node id="29" label="USDA">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2949640287769784"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3235772357723577"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.026006144"></attvalue>
+          <attvalue for="hub" value="0.026006144"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="120.0"></viz:size>
+        <viz:position x="2442.0789" y="-1036.28"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="30" label="RACEE">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-3954.463" y="230.36566"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="31" label="DEED">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4019607843137255"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5060975609756097"></attvalue>
+          <attvalue for="betweenesscentrality" value="306.7404761904763"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.0850421"></attvalue>
+          <attvalue for="hub" value="0.0850421"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="40.0"></attvalue>
+        </attvalues>
+        <viz:size value="344.0"></viz:size>
+        <viz:position x="770.0537" y="-2435.4568"></viz:position>
+        <viz:color r="44" g="123" b="182"></viz:color>
+      </node>
+      <node id="32" label="HEA">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.23563218390804597"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.279732868757259"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.051302485"></attvalue>
+          <attvalue for="hub" value="0.051302485"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="69.600006"></viz:size>
+        <viz:position x="-2995.4595" y="3.5957947"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="33" label="GVA">
+        <attvalues>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-3735.3315" y="-961.65704"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="34" label="MEA">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.23563218390804597"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.279732868757259"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.051302485"></attvalue>
+          <attvalue for="hub" value="0.051302485"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="75.3"></viz:size>
+        <viz:position x="-3137.6848" y="260.4331"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="35" label="MLP">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.23563218390804597"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.279732868757259"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.051302485"></attvalue>
+          <attvalue for="hub" value="0.051302485"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="84.1"></viz:size>
+        <viz:position x="-3196.721" y="599.9532"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="36" label="Chugach">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.23563218390804597"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.279732868757259"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.051302485"></attvalue>
+          <attvalue for="hub" value="0.051302485"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="89.7"></viz:size>
+        <viz:position x="-2954.3938" y="806.8694"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="37" label="AVTEC">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.18981481481481483"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2186991869918699"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="6.82843E-4"></attvalue>
+          <attvalue for="hub" value="6.82843E-4"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="1487.8385" y="-2683.6135"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="38" label="AK Teach">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.24404761904761904"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2747967479674796"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.008718744"></attvalue>
+          <attvalue for="hub" value="0.008718744"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+        </attvalues>
+        <viz:size value="0.1"></viz:size>
+        <viz:position x="-970.4076" y="-1331.4246"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="39" label="CCHRC">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3416666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4109756097560976"></attvalue>
+          <attvalue for="betweenesscentrality" value="32.291666666666664"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.13419347"></attvalue>
+          <attvalue for="hub" value="0.13419347"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="137.2219"></viz:size>
+        <viz:position x="-3016.6038" y="-2216.0654"></viz:position>
+        <viz:color r="223" g="73" b="62"></viz:color>
+      </node>
+      <node id="40" label="Biomass Greenhouse Booklet">
+        <attvalues>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.41414141414141414"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4776422764227643"></attvalue>
+          <attvalue for="betweenesscentrality" value="196.62261904761908"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.13334237"></attvalue>
+          <attvalue for="hub" value="0.13334237"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+        </attvalues>
+        <viz:size value="38.5"></viz:size>
+        <viz:position x="1297.793" y="-1014.7882"></viz:position>
+        <viz:color r="195" g="217" b="188"></viz:color>
+      </node>
+      <node id="41" label="Connie Fredenberg">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.35344827586206895"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.409349593495935"></attvalue>
+          <attvalue for="betweenesscentrality" value="39.75476190476191"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.17492095"></attvalue>
+          <attvalue for="hub" value="0.17492095"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="55.96831"></viz:size>
+        <viz:position x="-512.57666" y="-205.65999"></viz:position>
+        <viz:color r="225" g="84" b="70"></viz:color>
+      </node>
+      <node id="42" label="MOBY">
+        <attvalues>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.38333333333333336"></attvalue>
+          <attvalue for="betweenesscentrality" value="14.108333333333333"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.04908353"></attvalue>
+          <attvalue for="hub" value="0.04908353"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="23.67955"></viz:size>
+        <viz:position x="2088.442" y="-2334.1108"></viz:position>
+        <viz:color r="218" g="46" b="42"></viz:color>
+      </node>
+      <node id="43" label="South East School District">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2847222222222222"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.32073170731707307"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.03249753"></attvalue>
+          <attvalue for="hub" value="0.03249753"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="2473.605" y="-3178.8945"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="44" label="USFS">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.22527472527472528"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.25429732868757265"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.0065887053"></attvalue>
+          <attvalue for="hub" value="0.0065887053"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="164.8"></viz:size>
+        <viz:position x="2764.4985" y="-2635.2422"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="45" label="TRAILS">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2887323943661972"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3369918699186991"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.03378254"></attvalue>
+          <attvalue for="hub" value="0.03378254"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+        </attvalues>
+        <viz:size value="30.432272"></viz:size>
+        <viz:position x="2623.7046" y="-2290.414"></viz:position>
+        <viz:color r="225" g="84" b="70"></viz:color>
+      </node>
+      <node id="46" label="REAP">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3942307692307692"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5199186991869919"></attvalue>
+          <attvalue for="betweenesscentrality" value="189.98690476190475"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.49921805"></attvalue>
+          <attvalue for="hub" value="0.49921805"></attvalue>
+          <attvalue for="degree" value="11"></attvalue>
+          <attvalue for="weighted degree" value="47.0"></attvalue>
+        </attvalues>
+        <viz:size value="346.34988"></viz:size>
+        <viz:position x="-2644.1858" y="-1149.8044"></viz:position>
+        <viz:color r="204" g="223" b="188"></viz:color>
+      </node>
+      <node id="47" label="AIDEA">
+        <attvalues>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2887323943661972"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.33943089430894313"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.12565877"></attvalue>
+          <attvalue for="hub" value="0.12565877"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-1744.4618" y="2493.274"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+      <node id="48" label="UAA Engineering K-12">
+        <attvalues>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20398009950248755"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.23426248548199766"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="authority" value="0.001774301"></attvalue>
+          <attvalue for="hub" value="0.001774301"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-1186.0522" y="-3214.675"></viz:position>
+        <viz:color r="215" g="25" b="28"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="7" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="1" source="1" target="3" type="undirected" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="2" source="1" target="46" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="3" source="1" target="2" type="undirected" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="5" source="2" target="12" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="6" source="1" target="12" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="7" source="47" target="2" type="directed" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="8" source="47" target="1" type="directed" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="9" source="39" target="7" type="undirected">
+        <viz:color r="166" g="97" b="26"></viz:color>
+      </edge>
+      <edge id="10" source="3" target="6" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="11" source="10" target="3" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="12" source="3" target="39" type="undirected" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="13" source="3" target="46" type="undirected" weight="6.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="14" source="4" target="6" type="undirected" weight="5.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="15" source="4" target="46" type="undirected" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="16" source="5" target="6" type="undirected" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="17" source="5" target="4" type="directed" weight="5.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="18" source="5" target="46" type="directed" weight="5.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="19" source="5" target="1" type="directed" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="25" source="46" target="6" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="26" source="46" target="7" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="27" source="8" target="13" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="28" source="8" target="19" type="undirected" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="29" source="8" target="31" type="undirected" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="30" source="9" target="18" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="31" source="18" target="17" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="32" source="39" target="10" type="undirected" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="33" source="11" target="40" type="undirected" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="34" source="11" target="42" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="35" source="11" target="45" type="undirected" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="36" source="11" target="46" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="37" source="11" target="43" type="undirected" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="38" source="11" target="19" type="undirected" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="39" source="10" target="15" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="40" source="13" target="19" type="undirected" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="41" source="24" target="19" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="42" source="25" target="26" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="43" source="26" target="24" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="44" source="10" target="25" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="45" source="28" target="8" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="46" source="27" target="16" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="47" source="27" target="31" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="48" source="2" target="40" type="directed" weight="3.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="49" source="29" target="40" type="directed" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="50" source="40" target="31" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="51" source="28" target="48" type="directed" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="52" source="31" target="20" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="53" source="31" target="21" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="54" source="31" target="22" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="55" source="31" target="19" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="56" source="32" target="12" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="57" source="34" target="12" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="58" source="35" target="12" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="59" source="36" target="12" type="directed" weight="3.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="60" source="37" target="16" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="61" source="38" target="24" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="62" source="39" target="40" type="directed" weight="3.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="63" source="5" target="41" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="64" source="41" target="19" type="directed" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="65" source="41" target="46" type="undirected" weight="2.0">
+        <viz:color r="205" g="171" b="135"></viz:color>
+      </edge>
+      <edge id="66" source="42" target="31" type="undirected" weight="2.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="68" source="10" target="14" type="directed" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="69" source="14" target="31" type="undirected" weight="4.0">
+        <viz:color r="123" g="189" b="179"></viz:color>
+      </edge>
+      <edge id="70" source="46" target="26" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="71" source="44" target="45" type="directed" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="72" source="2" target="46" type="undirected" weight="3.0">
+        <viz:color r="245" g="245" b="245"></viz:color>
+      </edge>
+      <edge id="73" source="46" target="12" type="undirected" weight="5.0">
+        <viz:color r="1" g="133" b="113"></viz:color>
+      </edge>
+      <edge id="74" source="3" target="7" type="directed" weight="7.0"></edge>
+      <edge id="75" source="6" target="31" type="directed" weight="5.0"></edge>
+      <edge id="76" source="7" target="31" type="directed" weight="7.0"></edge>
+      <edge id="77" source="46" target="19" type="undirected" weight="5.0"></edge>
+      <edge id="78" source="43" target="31" type="undirected" weight="5.0"></edge>
+      <edge id="79" source="46" target="31" type="undirected" weight="7.0"></edge>
+      <edge id="80" source="23" target="31" type="undirected" weight="5.0"></edge>
+      <edge id="81" source="46" target="24" type="undirected" weight="5.0"></edge>
+      <edge id="82" source="1" target="31" type="undirected" weight="2.0"></edge>
+      <edge id="83" source="3" target="31" type="undirected" weight="2.0"></edge>
+      <edge id="84" source="39" target="46" type="undirected" weight="3.0"></edge>
+    </edges>
+  </graph>
+</gexf>
